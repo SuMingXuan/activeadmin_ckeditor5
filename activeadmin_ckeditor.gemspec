@@ -6,19 +6,17 @@ Gem::Specification.new do |spec|
   spec.name          = "activeadmin_ckeditor"
   spec.version       = Activeadmin::Ckeditor::VERSION
   spec.authors       = ["MingXuanSu"]
-  spec.email         = ["mxsu@jihulab.com"]
+  spec.email         = ["ohmyhysss@gmail.com"]
 
-  spec.summary       = "http://www.baidu.com"
-  spec.description   = "http://www.baidu.com"
-  spec.homepage      = "http://www.baidu.com"
+  spec.summary       = "Rails activeadmin integrated CKEditor 5"
+  spec.description   = "Rails activeadmin integrated CKEditor 5"
+  spec.homepage      = "https://github.com/SuMingXuan/activeadmin_ckeditor"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.4.0"
 
-  spec.metadata["allowed_push_host"] = "http://www.baidu.com"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "http://www.baidu.com"
-  spec.metadata["changelog_uri"] = "http://www.baidu.com"
+  spec.metadata["source_code_uri"] = "https://github.com/SuMingXuan/activeadmin_ckeditor"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
