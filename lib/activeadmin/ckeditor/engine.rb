@@ -5,7 +5,7 @@ require 'active_admin'
 module ActiveAdmin
   module Ckeditor
     class Engine < ::Rails::Engine
-      engine_name 'activeadmin_ckeditor'
+      engine_name 'activeadmin_ckeditor5'
     end
   end
 end

@@ -12,7 +12,7 @@ Rails [activeadmin](https://github.com/activeadmin/activeadmin) integrated [CKEd
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'activeadmin_ckeditor'
+gem 'activeadmin_ckeditor5'
 ```
 
 And then execute:
@@ -21,7 +21,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install activeadmin_ckeditor
+    $ gem install activeadmin_ckeditor5
 
 ### Usage
 
