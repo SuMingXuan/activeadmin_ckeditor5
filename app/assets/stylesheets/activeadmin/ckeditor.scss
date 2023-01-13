@@ -2,6 +2,16 @@ body.active_admin .ck-editor {
   display: inline-block;
   width: calc(80% - 22px);
   .ck-content {
-    min-height: 600px
+    min-height: 400px;
+    .todo-list {
+      all: revert-layer;
+      list-style-type: none;
+      & > * {
+        all: revert-layer;
+        & > * {
+          all: revert-layer;
+        }
+      }
+    }
   }
 }
