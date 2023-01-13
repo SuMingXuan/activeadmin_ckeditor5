@@ -4,7 +4,6 @@ body.active_admin .ck-editor {
   .ck-content {
     min-height: 400px;
     .todo-list {
-      all: revert-layer;
       list-style-type: none;
       & > * {
         all: revert-layer;
@@ -13,5 +12,36 @@ body.active_admin .ck-editor {
         }
       }
     }
+    ul, ol {
+      all: revert-layer;
+      padding-left: 2em;
+      li {
+        all: revert-layer;
+      }
+    }
   }
+}
+
+/**
+ * @license Copyright (c) 2014-2023, CKSource Holding sp. z o.o. All rights reserved.
+ * This file is licensed under the terms of the MIT License (see LICENSE.md).
+ */
+
+
+/* --------- EDITOR STYLES  ---------------------------------------------------------------------------------------- */
+
+.editor__editable,
+/* Classic build. */
+main .ck-editor[role='application'] .ck.ck-content,
+/* Decoupled document build. */
+.ck.editor__editable[role='textbox'],
+.ck.ck-editor__editable[role='textbox'],
+/* Inline & Balloon build. */
+.ck.editor[role='textbox'] {
+	width: 100%;
+	background: #fff;
+	font-size: 1em;
+	line-height: 1.6em;
+	min-height: var(--ck-sample-editor-min-height);
+	padding: 1.5em 2em;
 }
